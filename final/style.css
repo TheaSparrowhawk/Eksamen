@@ -1,0 +1,25 @@
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.week {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#myModal {
+ z-index: 2;
+ display: none;
+}
+
+
+
+.weekday {
+    width: 14%;
+    height: 80%;
+    background-color: pink;
+}
